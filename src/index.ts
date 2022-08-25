@@ -1,2 +1,6 @@
-// 入口文件
-console.log("我的文件")
+// 集合所有辅助方法的入口
+import EventBus from "./event-bus/index"
+
+export default {
+    EventBus
+}
